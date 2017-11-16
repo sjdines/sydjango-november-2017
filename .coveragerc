@@ -1,0 +1,19 @@
+[run]
+branch = True
+omit =
+	*/migrations/*,
+	*/tests.py,
+	manage.py,
+	.tox/*,
+	setup.py,
+	sydjango/*settings.py,
+	sydjango/wsgi.py
+source = .
+
+[report]
+exclude_lines =
+	def __repr__
+	pragma: no cover
+	raise AssertionError
+	raise NotImplementedError
+show_missing = True

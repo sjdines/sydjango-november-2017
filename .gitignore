@@ -1,0 +1,8 @@
+*.py[cod]
+.coverage
+.tox/
+db.sqlite3
+sydjango.egg-info/
+sydjango/local_settings.py
+.cache/*
+htmlcov/
